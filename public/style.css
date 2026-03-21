@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background: #eef2f7; /* softer background */
+}
+
+/* Navbar */
+.navbar {
+    background: #1f2937; /* dark professional (not too bright) */
+    color: white;
+    padding: 18px 40px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Container */
+.container {
+    max-width: 720px;
+    margin: 40px auto;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 14px;
+    margin-bottom: 28px; /* more spacing between cards */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* User */
+.user {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Content */
+.content {
+    color: #4b5563;
+    margin-bottom: 18px; /* more space before buttons */
+    line-height: 1.6;
+}
+
+/* Actions */
+.actions {
+    margin-top: 12px;
+    display: flex;
+    gap: 12px; /* clean spacing between buttons */
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+/* Button Colors (modern palette) */
+.view { background: #22c55e; }     /* green */
+.edit { background: #f59e0b; }     /* amber */
+.delete { background: #ef4444; }   /* red */
+.create { 
+    background: #3b82f6; 
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.update { background: #3b82f6; }
+
+/* Hover */
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+/* Textarea spacing */
+textarea {
+    margin-bottom: 15px;
+}

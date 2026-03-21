@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Post Details</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="navbar">Post Details</div>
+
+<div class="container">
+    <div class="card">
+        <p><strong>ID:</strong> <%= post.id %></p>
+        <div class="user">@<%= post.username %></div>
+        <div class="content"><%= post.content %></div>
+
+        <a href="/posts/<%= post.id %>/edit" class="btn edit">Edit</a>
+        <a href="/posts" class="btn create">Back</a>
+    </div>
+</div>
+
+</body>
+</html>
